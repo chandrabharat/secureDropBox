@@ -1,9 +1,10 @@
-# Project 2 Starter Code
+# Secure DropbBox Client Application API 
 
-This repository contains the starter code for Project 2!
-
-For comprehensive documentation, see the Project 2 Spec (https://cs161.org/proj2/getting-started-coding/).
-
-Write your implementation in `client/client.go`, and your tests in `client_test/client_test.go`.
-
-To test your implementation, run `go test -v` inside of the `client_test` directory.
+InitUser: Create a user account.
+GetUser: Log in using username and password
+User.StoreFile: Store a new file
+User.LoadFile: Load a previously stored file
+User.AppendToFile: Efficiently append data to an existing file
+User.CreateInvitation: Create a secure file share invitation
+User.AcceptInvitation: Add a shared file to personal file namespace
+User.RevokeAccess: Revoke file access
